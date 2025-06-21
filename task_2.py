@@ -19,3 +19,9 @@
 # # df.to_csv('raw_tweets.csv', index=False)
 # # print(df.head())
 
+
+
+from transformers import pipeline
+
+pipeline('sentiment-analysis')
+
